@@ -1,4 +1,6 @@
-# glyph_E1.png Generator
+# glyph_E1.png Generator!
+![glyph_E1_sample](https://github.com/Nnse/Unicode-Bedrock-New/raw/main/font/glyph_E1.png)  
+  
 This script is to generate a "font/glyph_E1.png" in Minecraft resource pack.  
 You can display a custom image on chat, tip or title in Minecraft by input accurate unicode text.
 
