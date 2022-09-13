@@ -1,12 +1,14 @@
-# glyph_E1.png Generator!
+# glyph_E1.png Generator
 ![glyph_E1_sample](https://github.com/Nnse/Unicode-Bedrock-New/raw/main/font/glyph_E1.png)  
   
 This script is to generate a "font/glyph_E1.png" in Minecraft resource pack.  
-You can display a custom image on chat, tip or title in Minecraft by input accurate unicode text.
+You can display a custom image on chat, tip or title in Minecraft by input accurate unicode text.  
+Successful execution of this script will generate a newly edited image "glyph_E1.png" and a dictionary file "pictogram.ini" representing Unicode character and pictogram combinations.
 
 <details><summary>日本語</summary><div>
 このスクリプトはリソースパックのfont/glyph_E1.pngを生成するツールです。<br />
-ユニコード文字を入力することで任意の絵文字画像をMinecraftのゲームのチャットやタイトルに表示できるようになります。
+ユニコード文字を入力することで任意の絵文字画像をMinecraftのゲームのチャットやタイトルに表示できるようになります。<br />
+このスクリプトの実行に成功すると、新たに編集された画像「glyph_E1.png」と、ユニコード文字と絵文字の組み合わせを表す辞書ファイル「pictogram.ini」が生成されます。
 </div></details><br /><br />
   
 ## Environment ｜ 環境
