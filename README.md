@@ -1,5 +1,5 @@
 # glyph_E1.png Generator
-![glyph_E1_sample](https://github.com/Nnse/Unicode-Bedrock-New/raw/main/font/glyph_E1.png)  
+![glyph_E1_sample](assets/sample.png)  
   
 This script is to generate a "font/glyph_E1.png" in Minecraft resource pack.  
 You can display a custom image on chat, tip or title in Minecraft by input accurate unicode text.  
@@ -95,7 +95,7 @@ Pythonが実行可能であること
 
 ## MUST READ ｜ 必読
 - The aspect ratio of all pictogram images should be 1:1. (16x16 pixels is preferable)
-- Be sure to place the pictogram image centered to the left of the pixel.
+- Be sure to place the pictogram image [centered to the left.](assets/image_validation.png)
 - Be sure to use English file names for pictogram images.
 - The pictograms are placed in ascending order of the names of the images in the icons directory. If you wish to specify the order, use a delimiter "#" to set the order. (Example: "1#zombie")
 - The dictionary file is generated using the file name of the pictogram image as it is. If there is a delimiter, the second half will be the definition name.
@@ -103,7 +103,7 @@ Pythonが実行可能であること
 <details><summary>日本語</summary><div>
 <ul>
     <li>絵文字画像の縦横比は全て1:1にしてください。(16×16ピクセルが望ましい)</li>
-    <li>必ず、ピクセルの左寄り中央に絵文字画像を配置してください。</li>
+    <li>必ず、<a href="assets/image_validation.png">左寄り中央</a>に絵文字画像を配置してください。</li>
     <li>必ず、絵文字の画像のファイル名を英語にしてください。</li>
     <li>指定したディレクトリ内の画像の名前の昇順に絵文字設置していきます。順序を定めたい場合は区切り文字で順番を決めてください。(例「1#zombie」)</li>
     <li>絵文字画像のファイル名をそのまま利用して、辞書ファイルを生成します。区切り文字「#」があれば後半が定義名になります。</li>
