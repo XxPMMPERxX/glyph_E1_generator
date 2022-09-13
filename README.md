@@ -35,6 +35,7 @@ Pythonが実行可能であること
 ```
 (env) > python main.py
 ```
+8. Dictionary and PNG files are generated in the /dest directory :D
 
 <details><summary>日本語</summary><div>
 コマンドは上記を参照
@@ -46,6 +47,7 @@ Pythonが実行可能であること
     <li>main.pyを実行する</li>
     <li>生成された「icons」フォルダに任意の絵文字画像を入れる</li>
     <li>再びmain.pyを実行するとdestフォルダに生成されます</li>
+    <li>/destのディレクトリに辞書ファイルとPNGファイルが生成されます</li>
 </ol>
 </div></details><br /><br />
   
@@ -53,8 +55,10 @@ Pythonが実行可能であること
 |File name|Description|
 |:---|:---|
 | main.py | Python script file |
-| /dest | Path where glyph_E1.png is generated |
-| /icons | Path of pictogram image |
+| /icons | Directory of pictogram image |
+| /dest | Directory where the generated files will be placed |
+| /dest/glyph_E1.png | Generated glyph_E1.png |
+| /dest/pictogram.ini | Generated pictogram.ini |
 
 <details><summary>日本語</summary><div>
 <table>
@@ -67,12 +71,20 @@ Pythonが実行可能であること
         <td>Pythonのスクリプトファイル</td>
     </tr>
     <tr>
-        <td>/dest</td>
-        <td>glyph_E1.pngが生成されるディレクトリ</td>
-    </tr>
-    <tr>
         <td>/icons</td>
         <td>追加したい絵文字のディレクトリ</td>
+    </tr>
+    <tr>
+        <td>/dest</td>
+        <td>生成されたファイルが入るディレクトリ</td>
+    </tr>
+    <tr>
+        <td>/dest/glyph_E1.png</td>
+        <td>生成されたglyph_E1.png</td>
+    </tr>
+    <tr>
+        <td>/dest/pictogram.ini</td>
+        <td>生成されたpictogram.ini</td>
     </tr>
 </table>
 </div></details><br /><br />
