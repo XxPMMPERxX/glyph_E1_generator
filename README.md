@@ -97,7 +97,7 @@ Pythonが実行可能であること
 - The aspect ratio of all pictogram images should be 1:1. (16x16 pixels is preferable)
 - Be sure to place the pictogram image [centered to the left.](assets/image_validation.png)
 - Be sure to use English file names for pictogram images.
-- The pictograms are placed in ascending order of the names of the images in the icons directory. If you wish to specify the order, use a delimiter "#" to set the order. (Example: "a#zombie")
+- The pictograms are placed in ascending order of the names of the images in the "icons" directory. If you wish to specify the order, use a delimiter "#" to set the order. (Example: "a#zombie")
 - The dictionary file is generated using the file name of the pictogram image as it is. If there is a delimiter, the second half will be the definition name.
 
 <details><summary>日本語</summary><div>
