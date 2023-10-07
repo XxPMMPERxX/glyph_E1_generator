@@ -8,7 +8,7 @@ import numpy as np
 
 TAG_INFO = '[INFO] '
 TAG_ERROR = '[ERROR] '
-BASE_PNG_URL = 'https://github.com/Nnse/Unicode-Bedrock-New/raw/main/font/glyph_E1_empty.png'
+BASE_PNG_URL = 'https://github.com/Nnse/glyph_E1_generator/blob/master/assets/glyph_E1_empty.png?raw=true'
 RESULT_PNG_PATH = '/glyph_E1.png'
 RESULT_DICT_PATH = '/pictogram.ini'
 ICONS_DIRECTORY_PATH = './icons'
