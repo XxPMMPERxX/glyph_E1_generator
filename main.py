@@ -8,7 +8,6 @@ import numpy as np
 
 TAG_INFO = '[INFO] '
 TAG_ERROR = '[ERROR] '
-BASE_PNG_URL = 'https://github.com/Nnse/glyph_E1_generator/blob/master/assets/glyph_E1_empty.png?raw=true'
 RESULT_PNG_PATH = '/glyph_E1.png'
 RESULT_DICT_PATH = '/pictogram.ini'
 ICONS_DIRECTORY_PATH = './icons'
@@ -79,7 +78,7 @@ if len(entries) == 0:
     exit(1)
 
 # ベースの256x256透過PNG取得
-base = url_read(BASE_PNG_URL)
+base = np.zeros((256, 256, 4))
 
 dictionary: list[str, str] = []
 x_offset = 0
